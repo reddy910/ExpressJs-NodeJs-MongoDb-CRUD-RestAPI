@@ -2,9 +2,10 @@
   "name": "node",
   "version": "1.0.0",
   "description": "Practice for node mongodb rest apis",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +16,13 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reddy910/LoginPage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reddy910/LoginPage/issues"
+  },
+  "homepage": "https://github.com/reddy910/LoginPage#readme"
 }
